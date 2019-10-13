@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    text-align: center;
+  }
+
+header {
+    color: yellow;
+}
+
+p {
+    color: red;
+    font-size: 16px;
+}
