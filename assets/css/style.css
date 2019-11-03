@@ -2,14 +2,52 @@ body {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 300%;
+    padding: 40px;
     text-align: center;
   }
 
 header {
     color: yellow;
+    font-size: 60px;
+    padding: 8px;
 }
 
-p {
+h3 {
     color: red;
     font-size: 16px;
 }
+
+#wrapper #sub-wrapper .quiz-area {
+  padding-top: 15px;
+  align-content: center;
+  Width: 960px;
+  min-height: 80%;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+    
+  }
+
+
+  button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 10px auto 0;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+  }
+  #start {
+    margin-top: 10%;
+    background: darkred; 
+    border: 2px solid yellow;
+  }
+  
+  
+  button:hover {
+    background: darkred; 
+    border: 2px solid yellow;
+  }
+    

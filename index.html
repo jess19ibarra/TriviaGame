@@ -3,8 +3,12 @@
 
 <head>
     <title>Trivia Game</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet" type="text/css">
+
+
 </head>
 
 <body>
@@ -14,67 +18,23 @@
     <br>
     <br>
     <div class="details">
-        <p>Instructions: The goal is to answer the questions before the time runs out!</p>
+        <h3>Instructions: The goal is to answer the questions before the time runs out!</h3>
     </div>
 
 
     <main>
-        <div class="col-lg-12">
-            <h2>Time Remaining: </h2>
-        </div>
-        <br>
-        <div class="col-md-4">
-            <p> Which famous movie said this, “Say ‘hello’ to my little friend!”
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">The Godfather</label>
+        <div id="wrapper">
+            <br>
+            <div id="sub-wrapper">
+                <br>
+                <div id="quiz-area">
+                    <button id="start">Start</button>
                 </div>
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">Heat</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">Scarface</label>
-                </div>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <p> Which famous movie said this, “You’re killin’ me Smalls!”
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">The Sandlot</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">The Karate Kid</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">The Mighty Ducks</label>
-                </div>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <p> Which famous movie said this, “Nobody puts Baby in the corner.”
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">Dirty Dancing</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">Center Stage</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">Footloose</label>
-                </div>
-            </p>
+            </div>
         </div>
     </main>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
 
